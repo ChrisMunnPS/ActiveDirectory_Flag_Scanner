@@ -100,7 +100,7 @@ $CONFIG = @{
     StaleAccountDays   = 90
     
     # Output preferences
-    OutputDirectory = "C:\Reports\AD_Security"
+    OutputDirectory = "C:\temp\AD_Security"
 }
 ```
 
