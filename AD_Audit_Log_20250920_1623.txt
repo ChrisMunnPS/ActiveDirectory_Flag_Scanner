@@ -1,0 +1,48 @@
+﻿[2025-09-20 16:23:42] [Info] Starting enhanced AD Account Control Flags audit v2.0
+[2025-09-20 16:23:42] [Info] Testing Active Directory connectivity...
+[2025-09-20 16:23:42] [Info] AD connectivity successful for domain: Homelan.lab
+[2025-09-20 16:23:42] [Info] Collecting account data for each flag...
+[2025-09-20 16:23:42] [Info] Scanning for flag: DONT_REQ_PREAUTH (bit 4194304)
+[2025-09-20 16:23:42] [Info] Found 1 accounts with flag: DONT_REQ_PREAUTH
+[2025-09-20 16:23:42] [Info] Scanning for flag: DontExpirePassword (bit 65536)
+[2025-09-20 16:23:42] [Info] Found 3 accounts with flag: DontExpirePassword
+[2025-09-20 16:23:42] [Info] Scanning for flag: AccountDisabled (bit 2)
+[2025-09-20 16:23:42] [Info] Found 2 accounts with flag: AccountDisabled
+[2025-09-20 16:23:42] [Info] Scanning for flag: PasswordCantChange (bit 64)
+[2025-09-20 16:23:42] [Info] Found 0 accounts with flag: PasswordCantChange
+[2025-09-20 16:23:42] [Info] Scanning for flag: Lockout (bit 16)
+[2025-09-20 16:23:42] [Info] Found 0 accounts with flag: Lockout
+[2025-09-20 16:23:42] [Info] Scanning for flag: UseDesKey (bit 2097152)
+[2025-09-20 16:23:43] [Info] Found 0 accounts with flag: UseDesKey
+[2025-09-20 16:23:43] [Info] Scanning for flag: PasswordNotRequired (bit 32)
+[2025-09-20 16:23:43] [Info] Found 1 accounts with flag: PasswordNotRequired
+[2025-09-20 16:23:43] [Info] Scanning for flag: TrustedForDelegation (bit 524288)
+[2025-09-20 16:23:43] [Info] Found 0 accounts with flag: TrustedForDelegation
+[2025-09-20 16:23:43] [Info] Collecting privileged group memberships...
+[2025-09-20 16:23:43] [Info] Scanning group: Account Operators
+[2025-09-20 16:23:43] [Info] Found 0 total members in Account Operators
+[2025-09-20 16:23:43] [Info] Scanning group: Enterprise Admins
+[2025-09-20 16:23:43] [Info] Found 1 total members in Enterprise Admins
+[2025-09-20 16:23:43] [Info] Scanning group: Schema Admins
+[2025-09-20 16:23:43] [Info] Found 1 total members in Schema Admins
+[2025-09-20 16:23:43] [Info] Scanning group: Domain Admins
+[2025-09-20 16:23:43] [Info] Found 1 total members in Domain Admins
+[2025-09-20 16:23:43] [Info] Scanning group: Server Operators
+[2025-09-20 16:23:43] [Info] Found 0 total members in Server Operators
+[2025-09-20 16:23:43] [Info] Scanning group: Administrators
+[2025-09-20 16:23:43] [Info] Found 1 total members in Administrators
+[2025-09-20 16:23:43] [Info] Scanning group: DNSAdmins
+[2025-09-20 16:23:43] [Info] Found 0 total members in DNSAdmins
+[2025-09-20 16:23:43] [Info] Scanning group: Backup Operators
+[2025-09-20 16:23:43] [Info] Found 0 total members in Backup Operators
+[2025-09-20 16:23:43] [Info] Scanning group: Print Operators
+[2025-09-20 16:23:43] [Info] Found 0 total members in Print Operators
+[2025-09-20 16:23:43] [Info] Analyzing stale accounts (inactive for 90 days)...
+[2025-09-20 16:23:43] [Info] Found 4 stale accounts
+[2025-09-20 16:23:43] [Info] Identifying potential service accounts...
+[2025-09-20 16:23:43] [Info] Found  potential service accounts
+[2025-09-20 16:23:43] [Info] HTML dashboard saved to: C:\Temp\AD_Reports\AD_Security_Dashboard_20250920_1623.html
+[2025-09-20 16:23:43] [Info] Opened C:\Temp\AD_Reports\AD_Security_Dashboard_20250920_1623.html using Start-Process
+[2025-09-20 16:23:43] [Info] Opened C:\Temp\AD_Reports\AD_Security_Report_20250920_1623.md using Start-Process
+[2025-09-20 16:23:43] [Info] Email not configured, skipping email report
+[2025-09-20 16:23:44] [Info] Audit completed successfully
