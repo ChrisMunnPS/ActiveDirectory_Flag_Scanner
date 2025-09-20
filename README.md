@@ -24,7 +24,7 @@ The script automatically scans your Active Directory and generates comprehensive
 ## Sample Output
 
 ### Interactive Dashboard
-![Dashboard Preview](https://via.placeholder.com/800x400/2c3e50/ffffff?text=Interactive+Security+Dashboard+with+Charts+%26+Tables)
+![Dashboard Preview](https://github.com/ChrisMunnPS/ActiveDirectory_Flag_Scanner/blob/main/AD%20Security%20Dashboard%20Example.png)
 
 ### Executive Summary Report
 ```
